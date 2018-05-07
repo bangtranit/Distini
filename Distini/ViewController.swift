@@ -19,10 +19,6 @@ class ViewController: UIViewController {
     var indexStory : Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        initUI()
-    }
-    
-    func initUI(){
         loadStory()
     }
     
